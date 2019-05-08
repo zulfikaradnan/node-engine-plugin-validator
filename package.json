@@ -1,11 +1,11 @@
 {
   "name": "@zulfikaradnan/engine-plugin-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js lib/",
-    "lint:fix": "eslint --ext .js lib/ --fix",
+    "lint": "eslint index.js",
+    "lint:fix": "eslint index.js --fix",
     "precommit": "npm run lint",
     "preversion": "echo \"Use npm run release instead\" && exit 1",
     "release": "npm test && standard-version",
