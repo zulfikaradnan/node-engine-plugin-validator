@@ -28,5 +28,19 @@ module.exports = {
   category: 'core',
   title: 'Validator',
   description: '',
+  parameters: {
+    schemas: {
+      type: 'array',
+      value: []
+    },
+    schemaId: {
+      type: 'string',
+      value: ''
+    },
+    parameter: {
+      type: 'context',
+      value: ''
+    }
+  },
   execute
 };
